@@ -17,6 +17,7 @@ public class Main {
         char[] modifiedExpression = new char[expression.length()];
         //Проверяем условие "один оператор". Если оператор уже присвоен в предудущих итерациях, значит более одного
         int operatorCount = 0;
+
         //Ищем оператор, присваиваем значение переменной operator
         for (int i = 0; i < expression.length(); i++) {
             // Избавляемся от пробелов т.к. в примерах к заданию приведён ввод с пробелами
